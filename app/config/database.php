@@ -10,7 +10,7 @@ return [
         'port'     => 27017,
         'username' => '',
         'password' => '',
-        'database' => 'll_staging' // Default name (removing this makes Travis fail).
+        'database' => 'lrs_prod' // Default name (removing this makes Travis fail).
     ],
 	],
 	'migrations' => 'migrations',
